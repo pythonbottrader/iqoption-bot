@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Option Bot Pro - AI Powered Trading Bot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0f; color: #e0e0e0; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, #0d1117 0%, #1a1a2e 100%); padding: 60px 0 40px; text-align: center; border-bottom: 1px solid #2a2a3e; }
+        header h1 { font-size: 2.8em; background: linear-gradient(135deg, #2ecc71, #27ae60); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
+        header .subtitle { font-size: 1.2em; color: #888; margin-bottom: 30px; }
+        .cta-button { display: inline-block; padding: 18px 50px; background: linear-gradient(135deg, #2ecc71, #27ae60); color: #fff; text-decoration: none; border-radius: 50px; font-size: 1.3em; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 20px rgba(46,204,113,0.3); }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 6px 25px rgba(46,204,113,0.5); }
+        .price-tag { font-size: 2em; font-weight: bold; color: #2ecc71; margin: 20px 0; }
+        .price-tag small { font-size: 0.5em; color: #888; }
+        section { padding: 60px 0; }
+        section h2 { font-size: 2em; margin-bottom: 30px; color: #fff; text-align: center; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .feature-card { background: #111118; border: 1px solid #2a2a3e; border-radius: 12px; padding: 30px; transition: border-color 0.2s; }
+        .feature-card:hover { border-color: #2ecc71; }
+        .feature-card h3 { color: #2ecc71; margin-bottom: 10px; font-size: 1.3em; }
+        .feature-card p { color: #999; }
+        .screenshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; }
+        .screenshots img { width: 100%; border-radius: 8px; border: 1px solid #2a2a3e; }
+        .requirements { background: #111118; border-radius: 12px; padding: 30px; border: 1px solid #2a2a3e; }
+        .requirements ul { list-style: none; }
+        .requirements li { padding: 8px 0; color: #999; }
+        .requirements li::before { content: "> "; color: #2ecc71; }
+        footer { text-align: center; padding: 40px 0; border-top: 1px solid #2a2a3e; color: #666; }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2em; }
+            .screenshots { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IQ Option Bot Pro</h1>
+            <p class="subtitle">AI-Powered Automated Trading Bot for IQ Option</p>
+            <div class="price-tag">$25.00 <small>one-time payment</small></div>
+            <a href="https://accounts.clickbank.com/order/form/1" class="cta-button" id="buyButton">Buy Now</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>AI Machine Learning</h3>
+                    <p>Neural network powered analysis using scikit-learn MLPClassifier with adaptive learning and real-time training from trade results.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Multiple Strategies</h3>
+                    <p>Breakout detection, MHI (3-candle pattern + Hoffman), SMA/EMA crossovers, MACD, RSI, and Bollinger Bands analysis.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>OTC & Binary Trading</h3>
+                    <p>Support for OTC pairs, digital options, binary options, and blitz trading with multi-asset portfolio management.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Real-time GUI</h3>
+                    <p>Modern dark-themed interface built with CustomTkinter showing live balance, trades, win/loss stats, and OTC pair payouts.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Smart Asset Selection</h3>
+                    <p>Auto-selects best performing assets based on historical scores and payout rates. Ensemble mode combines ML + rule signals.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Google Login</h3>
+                    <p>Automatic Google authentication with saved credentials. No manual SSID token management required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Screenshots</h2>
+            <div class="screenshots">
+                <img src="screenshot1.png" alt="Bot Interface Screenshot 1">
+                <img src="screenshot2.png" alt="Bot Interface Screenshot 2">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Requirements</h2>
+            <div class="requirements">
+                <ul>
+                    <li>Python 3.10+</li>
+                    <li>Windows / macOS / Linux</li>
+                    <li>IQ Option account (free to create)</li>
+                    <li>Google Chrome installed</li>
+                    <li>Internet connection</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section style="text-align: center; padding: 40px 0;">
+        <div class="container">
+            <h2>Ready to automate your trading?</h2>
+            <p style="color: #888; margin-bottom: 30px;">Get started today with our one-time payment</p>
+            <div class="price-tag">$25.00</div>
+            <a href="https://accounts.clickbank.com/order/form/1" class="cta-button" id="buyButton2">Buy Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>IQ Option Bot Pro &copy; 2024. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">This product is not affiliated with IQ Option. Trading involves risk.</p>
+        </div>
+    </footer>
+</body>
+</html>
