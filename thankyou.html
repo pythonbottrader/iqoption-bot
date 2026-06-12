@@ -12,6 +12,9 @@
         h1 { font-size: 2.2em; color: #2ecc71; margin-bottom: 15px; }
         .checkmark { font-size: 4em; color: #2ecc71; margin-bottom: 20px; }
         p { color: #999; margin-bottom: 20px; font-size: 1.1em; }
+        .license-box { background: #0d0d14; border: 1px solid #2a2a3e; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        .license-box h3 { color: #f39c12; margin-bottom: 8px; font-size: 1em; }
+        .license-box p { font-size: 0.95em; color: #aaa; margin-bottom: 0; }
         .download-btn { display: inline-block; padding: 18px 50px; background: linear-gradient(135deg, #2ecc71, #27ae60); color: #fff; text-decoration: none; border-radius: 50px; font-size: 1.2em; font-weight: bold; margin: 20px 0; transition: transform 0.2s; }
         .download-btn:hover { transform: translateY(-2px); }
         .instructions { text-align: left; background: #0d0d14; border-radius: 8px; padding: 25px; margin-top: 30px; border: 1px solid #2a2a3e; }
@@ -26,8 +29,16 @@
         <div class="card">
             <div class="checkmark">&#10003;</div>
             <h1>Thank You for Your Purchase!</h1>
-            <p>Your payment was successful. Click the button below to download IQ Option Bot Pro.</p>
+            <p>Your payment was successful. You will receive your license key via email shortly.</p>
+
+            <div class="license-box">
+                <h3>&#128273; License Key</h3>
+                <p>Your license key has been sent to your email. Check your inbox (and spam folder) for the receipt from Lemon Squeezy containing your license key.</p>
+                <p style="margin-top: 10px;">You will need this key to activate the software.</p>
+            </div>
+
             <a href="https://github.com/pythonbottrader/iqoption-bot/archive/refs/heads/main.zip" class="download-btn" id="downloadBtn">Download Now</a>
+
             <div class="instructions">
                 <h3>Installation Instructions</h3>
                 <ol>
@@ -35,9 +46,11 @@
                     <li>Install Python 3.10+ if not already installed</li>
                     <li>Run: <code style="background: #2a2a3e; padding: 2px 6px; border-radius: 4px;">pip install -r requirements.txt</code></li>
                     <li>Run: <code style="background: #2a2a3e; padding: 2px 6px; border-radius: 4px;">python main.py</code></li>
+                    <li>Enter your license key when prompted</li>
                     <li>Log in with your IQ Option credentials and start trading!</li>
                 </ol>
             </div>
+
             <div class="support">
                 <p>Need help? Contact: pythonbottrader@gmail.com</p>
             </div>
